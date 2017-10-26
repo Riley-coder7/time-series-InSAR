@@ -156,7 +156,7 @@ def get_remove_number(STR):
 
 INTRODUCTION = '''
 #############################################################################
-   Copy Right(c): 2017, Yunmeng Cao   @PyMIS v1.0   
+   Copy Right(c): 2017, Yunmeng Cao   @PySAR v1.2   
    
    Unwrap multi-temporal interferograms based on GAMMA software.
    
