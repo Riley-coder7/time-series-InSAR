@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 #################################################################
-###  This program is part of PyMIS  v1.0                      ### 
+###  This program is part of PyINT  v1.0                      ### 
 ###  Copy Right (c): 2017, Yunmeng Cao                        ###  
 ###  Author: Yunmeng Cao                                      ###                                                          
 ###  Email : ymcmrs@gmail.com                                 ###
