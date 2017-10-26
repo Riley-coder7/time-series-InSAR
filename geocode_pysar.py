@@ -403,7 +403,8 @@ def main(argv):
             data = f[k1][k2[i]].get(k2[i])[()]
             data0 = np.zeros([int(FILE_LENGTH_ORIG),int(WIDTH_ORIG)])
             data0 = np.float32(data0)
-            data0[int(Y_MIN):int(Y_MAX),int(X_MIN):int(X_MAX)] = data
+            data0[int(Y_MIN):int(Y_MAX)+1,int(X_MIN):int(X_MAX)+1] = data
+            data0.byteswap(True)
             data0.tofile(k2[i])
             outFile = 'geo_' + k2[i]
             print_progress(i+1, fileNum, prefix='Geocoding ', suffix=k2[i])
@@ -449,6 +450,7 @@ def main(argv):
             data0 = np.zeros([int(FILE_LENGTH_ORIG),int(WIDTH_ORIG)])
             data0 = np.float32(data0)
             data0[int(Y_MIN):int(Y_MAX)+1,int(X_MIN):int(X_MAX)+1] = data
+            data0.byteswap(True)
             data0.tofile(k2[i])
             outFile = 'geo_' + k2[i]
             print_progress(i+1, fileNum, prefix='Geocoding ', suffix=k2[i])
