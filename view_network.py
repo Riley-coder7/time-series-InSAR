@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 ############################################################                                                     
-# Program is part of PYMIS   v1.0                          #
+# Program is part of PYSAR   v1.2                          #
 # Copyright(c) 2017, Yunmeng Cao                           #
 # Author :  Yunmeng Cao                                    # 
 # Company:  Central South University                       #                                                       
@@ -36,7 +36,7 @@ def add_zero(s):
 
 INTRODUCTION = '''
 #############################################################################
-   Copy Right(c): 2017, Yunmeng Cao   @PyMIS v1.0   
+   Copy Right(c): 2017, Yunmeng Cao   @PySAR v1.2   
    
   View SBAS network of interferograms based on different maximum baseline parameters.
    
